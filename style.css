@@ -89,49 +89,6 @@ article {
   nav a {
     margin: 0 10px;
   }
-@media screen and (max-width: 430px) {
-  body {
-    grid-template-columns: auto;
-    grid-template-rows: minmax(40px, auto) minmax(30px, auto) auto auto;
-    grid-template-areas:
-    "header"
-    "nav"
-    "ct"
-  }
-  header, nav {
-    text-align: center;
-    justify-self: center;
-  }
-  nav a {
-    margin: 0 10px;
-  }
-@media screen and (max-width: 430px) {
-  body {
-    grid-template-columns: auto;
-    grid-template-rows: minmax(40px, auto) minmax(30px, auto) auto auto;
-    grid-template-areas:
-    "header"
-    "nav"
-    "ct"
-  }
-  header, nav {
-    text-align: center;
-    justify-self: center;
-  }
-  nav a {
-    margin: 0 10px;
-  }
-  
-  @media screen and (max-width:430px) {
-      body {
-          grid-template-columns:auto;
-          grid-template-rows:
-              minmax(40px, auto)
-              minmax(30px, auto) auto auto;
-          grid-template-areas: "header"
-                               "nav"
-                               "ct"
-      }
 
       header, nav {
           text-align: center;
