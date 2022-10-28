@@ -9,7 +9,6 @@
 }
 
 nav{
-    display: flex;
     justify-item: center;
 }
 
@@ -23,6 +22,7 @@ nav ul{
 }
 
 nav ul li{
+
     margin: 0 1rem;
     font-weight: 700;
 }
