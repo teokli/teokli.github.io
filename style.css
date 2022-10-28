@@ -1,14 +1,21 @@
-.main{
-    background-image:url("/background-image.jpg") ;
+#sec1{
+    background-image:url("/background-image.jpg"), padding-top("0px") ;
     height: 600px;
     background-size: cover;
     background-attachment: fixed;
     align-content: stretch;
-    color: green;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-nav{
+.main h1{
+    font-color: green;
+}
+
+.main h2{
+    font-color: gold;
+}
+
+nav h2{
     justify-item: center;
 }
 
@@ -16,6 +23,8 @@ h1{ font-size: 20px;
   }
 
 nav ul{
+    justify-item: center;
+    justify-content: space between;
     display: flex;
     list-style-type: none;
     text-align: center;
