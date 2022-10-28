@@ -48,13 +48,14 @@ nav ul li{
     color:#fff;
     background-color:#baeb34  ;
     border: dotted ;
-    padding: 0.5rem, 2 rem;
+    padding: 0.7rem, 0.7 rem;
     cursor: pointer;
     transition: all .3s ease;
 }
 
 .content button:hover{
-    background color:#518c3e  ;
+    background-color:#518c3e  ;
+    border-radius: 5px
 }
         
 
