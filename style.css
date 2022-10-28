@@ -1,7 +1,8 @@
 #main{
-    background-image: url ("background-image.jpg");
+    background-image:url("/background-image.jpg") ;
     height: 600px;
     background-size: cover;
+    background-attachment: fixed;
     align-content: stretch;
 }
 
