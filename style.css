@@ -1,19 +1,33 @@
-#main{
+.main{
     background-image:url("/background-image.jpg") ;
     height: 600px;
     background-size: cover;
     background-attachment: fixed;
     align-content: stretch;
     color: green;
+    font-family: "Lato", sans-serif;
 }
 
 nav{
     display: flex;
-    justify-item: centre;
+    justify-item: center;
 }
 
 h1{ font-size: 20px;
   }
 
-           
-                      
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    margin: 0 1rem;
+    font-weight: 700;
+}
+
+.slogan{
+    text-align: center;
+}
+
