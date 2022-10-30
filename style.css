@@ -1,46 +1,58 @@
+body {
+    margin: 0px;
+}
+
 #sec1{
     background-image:url("/background-image.jpg") ;
     height: 600px;
     background-size: cover;
     background-attachment: fixed;
     align-content: stretch;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 nav  h1{
-    font-color:#56eb34 ;
+    color:darkgreen ;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav  h2{
-    font-color: gold;
+    color: darkgreen;
 }
 
 nav h2{
     text-align: center;
 }
 
-h1{ font-size: 20px;
+h1{
+    font-size: 20px;
   }
 
 nav ul{
-    justify-item: center;
     display: flex;
     list-style-type: none;
     text-align: center;
+    justify-content: space-around;
+    align-items: self-end;
+    font-size: 10px;
+    margin-top: 70px;
+    initial-inline-start: unset;
+                    
 }
 
 nav ul li{
 
     margin: 0 1rem;
     font-weight: 700;
-    font-size:2rem
+    font-size:1rem
 }
 
 .slogan{
     text-align: center;
     font-size: 1rem;
     margin-top: 100px;
-    font-weight: 800;
+    font-weight:600;
 }
 
 .content button{
