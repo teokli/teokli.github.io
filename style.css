@@ -42,7 +42,7 @@ align-content:stretch;
 
 .navbar ul li::after{
     content: '';
-    hight: 3px;
+    height: 3px;
     width: 0;
     background:#009688;
     position: absolute;
@@ -84,6 +84,7 @@ button{
     border-radius:25px;
     font-weight:bold;
     border:2px solid #009688;
+    background: transparent;
     color: #fff;
     cursor: pointer;
     position: relative;
