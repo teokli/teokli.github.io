@@ -81,7 +81,7 @@ p{
 
 .line{
     line-height:8px;
-}  <!can this be merge with .line-1,2,3?>
+}  /*can this be merge with .line-1,2,3?*/
 
 
 #sidenav{
@@ -103,7 +103,7 @@ nav ul li{
 nav ul li a{
     text-decoration:none;
     color:#fff;
-}<!can this be combined with above>
+} /*can this be combined with above*/
 
 #menubtn{
     width:50px;
@@ -182,7 +182,7 @@ nav ul li a{
     display: flex;
     align-items:flex-end;
     justify-content:center;
-}<!display flex needed?>
+}/*display flex needed?*/
 
 #courses{
     padding: 100px, 0;
@@ -244,7 +244,7 @@ form input{
     margin-bottom:5px;
     outline: none;
     box-shadow:none;
-    box-sizing:border-box;  !so taht box size does not change with increase of padding
+    box-sizing:border-box;  /*so taht box size does not change with increase of padding*/
     border: 2px solid #fab3c4
 }
 
