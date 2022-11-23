@@ -203,7 +203,7 @@ nav ul li a{
 }
 
 .course-left-col{
-    flex-basis:50px;
+    flex-basis:50%;
 }
 
 .course-text{
